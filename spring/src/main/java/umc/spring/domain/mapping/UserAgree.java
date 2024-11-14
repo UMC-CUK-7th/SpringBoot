@@ -3,6 +3,7 @@ package umc.spring.domain.mapping;
 import jakarta.persistence.*;
 import lombok.*;
 import umc.spring.domain.Agree;
+import umc.spring.domain.Alert;
 import umc.spring.domain.User;
 import umc.spring.domain.common.BaseEntity;
 
