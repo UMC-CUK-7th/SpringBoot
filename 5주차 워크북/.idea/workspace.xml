@@ -5,8 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49bcf8b-77c0-4b67-a4a2-909c6cdfac65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/5주차 워크북.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5주차 워크북/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5주차 워크북/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/common/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/common/StudyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/MemberStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/MissionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/SocialType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/maping/MemberAgree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/maping/MemberMission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/java/umc7th/study/domain/enums/maping/Memberprefer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc7th/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/5주차 워크북.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/FoodCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/MemberAgree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/MemberMission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/MemberPrefer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Mission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Region.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/ReviewImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/SocialType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umc_spring_5_week/src/main/java/com/example/domain/Terms.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +74,7 @@
     &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/d/SpringBoot/umc_spring_5_week&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/d/SpringBoot/5주차 워크북&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,8 +109,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730701519283</updated>
-      <workItem from="1730701520531" duration="4439000" />
-      <workItem from="1730706018996" duration="14000" />
+      <workItem from="1730701520531" duration="4281000" />
+      <workItem from="1730706045041" duration="788000" />
+      <workItem from="1730984885023" duration="609000" />
+      <workItem from="1731318155438" duration="21000" />
     </task>
     <servers />
   </component>
