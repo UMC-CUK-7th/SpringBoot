@@ -22,13 +22,25 @@ public class QReview extends EntityPathBase<Review> {
 
     public static final QReview review = new QReview("review");
 
+    public final umc.Spring.domain.common.QBaseEntity _super = new umc.Spring.domain.common.QBaseEntity(this);
+
+    //inherited
+    public final DateTimePath<java.time.LocalDateTime> createdAt = _super.createdAt;
+
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
-    public final StringPath score = createString("score");
+    public final QReview parentReview;
+
+    public final ListPath<Review, QReview> reviewList = this.<Review, QReview>createList("reviewList", Review.class, QReview.class, PathInits.DIRECT2);
+
+    public final NumberPath<Float> score = createNumber("score", Float.class);
 
     public final QStore store;
 
     public final StringPath title = createString("title");
+
+    //inherited
+    public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;
 
     public final QUser user;
 
@@ -50,6 +62,7 @@ public class QReview extends EntityPathBase<Review> {
 
     public QReview(Class<? extends Review> type, PathMetadata metadata, PathInits inits) {
         super(type, metadata, inits);
+        this.parentReview = inits.isInitialized("parentReview") ? new QReview(forProperty("parentReview"), inits.get("parentReview")) : null;
         this.store = inits.isInitialized("store") ? new QStore(forProperty("store"), inits.get("store")) : null;
         this.user = inits.isInitialized("user") ? new QUser(forProperty("user")) : null;
     }
